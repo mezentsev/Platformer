@@ -11,6 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="source\Box2DManager.cpp" />
     <ClCompile Include="source\level.cpp" />
     <ClCompile Include="source\main.cpp" />
     <ClCompile Include="source\tinystr.cpp" />
@@ -19,6 +20,7 @@
     <ClCompile Include="source\tinyxmlparser.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="source\Box2DManager.h" />
     <ClInclude Include="source\level.h" />
     <ClInclude Include="source\tinystr.h" />
     <ClInclude Include="source\tinyxml.h" />

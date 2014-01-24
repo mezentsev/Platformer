@@ -25,11 +25,14 @@
     <Filter Include="Файлы исходного кода\level">
       <UniqueIdentifier>{186576e2-9d4c-43a4-8ac9-fb966291fec3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Файлы исходного кода\Box2DManager">
+      <UniqueIdentifier>{03bbfa67-5ee8-4f99-aa23-18997b05f81f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Box2DManager">
+      <UniqueIdentifier>{6a2637c5-ac9c-4c9f-aec6-ce6fd2d46c3b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="source\main.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
     <ClCompile Include="source\level.cpp">
       <Filter>Файлы исходного кода\level</Filter>
     </ClCompile>
@@ -45,6 +48,12 @@
     <ClCompile Include="source\tinyxmlparser.cpp">
       <Filter>Файлы исходного кода\tinyxml</Filter>
     </ClCompile>
+    <ClCompile Include="source\main.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Box2DManager.cpp">
+      <Filter>Файлы исходного кода\Box2DManager</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\level.h">
@@ -55,6 +64,9 @@
     </ClInclude>
     <ClInclude Include="source\tinyxml.h">
       <Filter>Заголовочные файлы\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Box2DManager.h">
+      <Filter>Заголовочные файлы\Box2DManager</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
